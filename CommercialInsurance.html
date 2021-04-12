@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="css/style-sheet.css">
+    <link rel="stylesheet" href="css/addlFooter.css">
+
+    <title>JGI - Business</title>
+    <link rel='icon' type='image/jpg' href="images/Logo/FaviconLogo.jpg">
+</head>
+
+<body>
+    <!--Req quote button and phone info-->    
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."alert.html"); ?>
+
+    <!--Navbar-->
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."headerNav.html"); ?>
+
+
+
+
+
+<!--Jumbotron image-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/SitePics/CommercialBanner.jpg" class="d-block w-100" alt="interior of a vehicle focusing on the steering wheel and radio">
+        <div class="carousel-caption d-none d-md-block">
+            <h2 id="commercialIns"></h2>
+            <p></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Body-->
+
+<br>
+<div class="siteHeading"><p><h3>Commercial Insurance</h3> </p></div>
+<br>
+
+<div class="container-fluid">
+    <div class="card border-light mb-3" style="max-width:;" >
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex-justify-content-center">
+            <img src="images/SitePics/Commercial_Round_Image.png"  class="commercial" alt="man in construction hat talking into a 2 way radio">
+            </div>
+            <div class="col-md-8">
+
+                <div class="card-body">
+                    <h5 class="card-title">Commercial Insurance</h5>
+                    <p class="card-text">Julio Garcia Insurance is one of the leading Commercial Insurance Brokers in Texas.  Let us help you find the best policy that fits <br />
+                        the needs of your company.</p>
+                        <br />
+                    <p>We offer a full range of Coverages for Small to mid-size companies:</p>
+                
+                        <li>General Liability</li>
+                        <li>Professional Liability</li>
+                        <li>Commercial Property</li>
+                        <li>Commercial Auto</li>
+                        <li>Workers' Compensation </li>
+                        <li>Umbrellas</li>
+                        <li>Excess Umbrella</li>
+                        <li>E&O Coverage and much more!</li>
+                        <br>
+                        <p> Commercial Policies for:</p>
+                        <li>General Contractors</li>
+                        <li>Building Trades</li>
+                        <li>Apartments</li>
+                        <li>Handyman</li>
+                        <li>Restaurants </li>
+                        <li>Barbers & Hair Dressers </li>
+                        <li>Small Retail Boutiques</li>
+                        <li>Oil Patch</li>
+                        <li>And much more</li>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!--Auto Quote Request-->
+    <div class="container-fluid d-flex justify-content-center">
+
+        <button type="button" class="btn btn-info" id='request'><a href="CommercialQT_Req.html">Commercial Request</a></button>
+    </div>
+
+<br>
+
+<!--Quote Request Form on top right corner-->
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg " id="requestQT"  tabindex="-1" role="dialog" aria-labelledby="requestQT" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        
+        <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+            <form>
+                <div class="involveme_embed" data-embed="thewebdevstudio/looking-sharp-contact-form-embed-7549"></div>
+                <script src="https://app.involve.me/embed"></script>
+
+                </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            
+        </div>
+        </div>
+    </div>
+</div>
+<!--Quote Request Form on top right corner-->
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.html"); ?>
+
+
+
+
+<!--my javascript code-->
+<link rel="javascript" href="js/script.js" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Bootstrap CDN jQuery-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<script type="text/javascript">
+        function googleTranslateElementInit() 
+        {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
+    </script>
+
+<!-- GTranslate: https://gtranslate.io/ -->
+    
+    <div id="google_translate_element"></div>
+    
+    <script type="text/javascript">
+    function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
+    </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>

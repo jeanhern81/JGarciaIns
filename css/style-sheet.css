@@ -1,0 +1,272 @@
+body {
+    font-family: 'Lora', serif;
+    clear: all;
+}
+
+#requestQuote {
+    float: right;
+    margin-top: 5%;
+    
+}
+
+button.btn.btn-info.contactUs {
+    margin-top: 15%;
+}
+.phoneNumber,
+.phoneFax,
+.email {
+    text-align: right ;
+    color:black;
+    margin-top: 2%;
+    margin-bottom: 0% !important;
+    padding-bottom: 0% !important;
+    text-align: left;
+    
+    
+}
+
+
+
+#goIns {
+    color: black !important;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+}
+
+
+
+/*Footer Styling*/
+.footer {
+    width: ;
+}
+.f1 {    
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.f1,
+.f2,
+.f3 {
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 8%;
+    min-width: 300px;
+    width: 33%;
+    color: whitesmoke;
+    
+
+}
+
+#f1 {
+    color: whitesmoke;
+}
+
+#f4 {
+font-size: 14px;
+    color: whitesmoke !important;
+}
+
+
+a {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #f85b33d8;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 50%;               
+    background-color:#d7d1d1;
+    height: 1px;
+}
+
+
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+.goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
+body {top:0 !important;}
+
+/* styling for navbar and alert bar */
+
+.contactUs,
+.request {
+color: whitesmoke;
+
+}
+
+.requestInstantQt {
+    padding-top: -15%;
+}
+
+/* ContactUs*/
+.btn-info  {
+    background-color: #fc9d04;
+}
+
+.btn-info:hover {background-color: #f85a33;}
+
+.btn-info {
+    border: #f85a33;
+    margin-top: 5%;
+}
+
+#phoneNumber {
+    color: black;
+
+}
+.fa-phone-alt {
+    color: black;
+}
+
+div.spanish.seHabla {
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 1%;
+    
+    overflow-x: auto;
+}
+
+
+.alert {
+    margin-bottom: -.5%;
+}
+
+#navBar {
+    background-color: #f85a33 !important;
+    color: whitesmoke !important;
+    
+    
+}
+.email{
+    color: black !important;
+}
+.dropdown-item {
+    color: black;
+
+}
+button.navbar-toggler,
+
+span.navbar-toggler-icon,
+.navbar-light {
+    color: transparent !important;
+    border: 1px solid whitesmoke !important;
+    
+}
+
+a.nav-link{
+    color: whitesmoke !important;
+padding-left: 30px !important;
+padding-right: 30px !important;
+}
+
+
+
+
+a.dropdown-item:hover {
+    background-color:#f9a0129d;
+}
+
+
+a:hover {
+    color: #ffad2a !important;
+}
+
+.bottom {
+    background-color: #f85b33 !important;
+}
+
+
+#rqQuote {
+    text-align: center;
+}
+
+.modal-title {
+    text-align: justify !important;
+}
+
+
+
+
+
+
+
+
+/*AutoInsurance.html Styling*/
+
+#reAutoQt {
+    align-items: center !important;
+}
+
+.spanish {
+    word-wrap: break-word;
+    
+}
+
+/*Auto Req Form*/
+
+.autoReq {
+    text-align: center;
+}
+
+.btAutoForm {
+    float: right;
+}
+
+.siteHeading {
+    text-align: center;
+}
+
+/*Commercial Ins*/
+#commercialIns,
+#petIns {
+    color: black;
+}
+
+
+.insType {
+    font-size: small;
+}
+
+
+/*Contact Us*/
+
+#contactUs {
+    padding-left: 20px;
+}
+
+.card-text {
+    margin-bottom:  0%;
+}
+
+#emailCU {
+    color: black !important;
+}
+
+/* Commercial Page Image */
+
+.commercial {
+    margin-left: 15%;
+}

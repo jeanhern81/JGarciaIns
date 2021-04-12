@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="css/style-sheet.css">
+    <link rel="stylesheet" href="css/addlFooter.css">
+
+
+
+    <title>JGI - Auto</title>
+    <link rel='icon' type='image/jpg' href="images/Logo/FaviconLogo.jpg">
+</head>
+
+<body>
+    <!--Req quote button and phone info-->    
+
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."alert.html"); ?>
+
+    <!--Navbar-->
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."headerNav.html"); ?>
+
+
+<!--Jumbotron image-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/SitePics/car_interior02.jpg" class="d-block w-100" alt="interior of a vehicle focusing on the steering wheel and radio">
+        <div class="carousel-caption d-none d-md-block">
+            <h2></h2>
+            <p></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Body-->
+<br>
+<div class="siteHeading"><p><h3>Auto Insurance</h3> </p></div>
+<br>
+
+<div class="container-fluid">
+    <div class="card border-light mb-3" style="max-width:;">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center">
+            <img src="images/SitePics/NewCar.png"  class="card-img w-auto" alt="keys being handed to someone who just bought a car">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Car Insurance</h5>
+                <p class="card-text">Our clients have been choosing Julio Garcia Insurance to insure their cars and other vehicles because of our competitive prices and personal customer service, but our policies offer so much more. We also provide: </p>
+
+                    <li>Highest levels of customer service for auto Policyholders</li>
+                    <li>Over 30 extra car insurance policy features</li>
+                    <li>Flexibility to customize your car insurance policy</li>
+                    <li>Stability that ranks at the top of the auto insurance industry</li>
+                    <br>
+                <p>
+                    <h5>Auto Insurance Discounts</h5>
+
+                    <li>Safe Driver</li>
+                    <li>Anti-Theft Devices</li>
+                    <li>Multi-Policy</li>
+                    <li>Passive Restraints</li>
+                    <li> and more!</li>
+
+                </p>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Auto Quote Request-->
+    <div class="container-fluid d-flex justify-content-center">
+
+        <button type="button" class="btn btn-info" id='request'><a href="AutoQT_Req.html">Auto Request</a></button>
+    </div>
+
+    <br>
+<hr>
+<br>
+    <!--Go Insurance Link-->
+        <div class="container-fluid d-flex justify-content-center">
+        <p>
+        <h5>Special Pandemic Rates</h5></p>
+    </div> 
+    <div class='container-fluid d-flex justify-content-center'>
+        <a href="https://join.gosafeinsurance.com/juliogarcia" target="_blank"><img src='images/Companies/GoInsuranceLogoONLY.png'></a>
+    </div>    
+<br>
+<div class='container-fluid d-flex justify-content-center'>
+    <div class='card border-light'>
+        <div class='card-body'>
+            <p><h7>We know that during these difficult times, every cent counts and that is why <i><a href="https://join.gosafeinsurance.com/juliogarcia" target="_blank" id='goIns' >Go Safe Insurance</i></a> is offering special pandemic rates. Click on the link below to request an instant quote.  </h7> </p>
+        </div>
+    </div>
+    
+</div>
+    <div class='container-fluid d-flex justify-content-center'>
+        <p>
+            <button type="button" class="btn btn-info" id='requestInstantQt'><a href="https://join.gosafeinsurance.com/juliogarcia" target="_blank">Request an Instant Quote</a></button>
+        </p>
+    </div>
+
+
+
+
+
+
+<br>
+
+
+<!--Quote Request Form on top right corner-->
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg " id="requestQT"  tabindex="-1" role="dialog" aria-labelledby="requestQT" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        
+        <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+            <form>
+                <div class="involveme_embed" data-embed="thewebdevstudio/looking-sharp-contact-form-embed-7549"></div>
+                <script src="https://app.involve.me/embed"></script>
+
+                </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            
+        </div>
+        </div>
+    </div>
+</div>
+<!--Quote Request Form on top right corner-->
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+
+<!--Footer-->
+<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.html"); ?>
+
+
+
+
+
+<!--my javascript code-->
+<link rel="javascript" href="js/script.js" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Bootstrap CDN jQuery-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">
+        function googleTranslateElementInit() 
+        {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
+    </script> 
+    
+
+
+</body>
+</html>

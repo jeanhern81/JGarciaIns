@@ -1,0 +1,151 @@
+body {
+    font-family: 'Lora', serif;
+    clear: all;
+}
+
+a {
+    color: black;
+}
+
+#requestQuote {
+    float: right;
+    margin-top: 5%;
+    
+}
+
+.phoneNumber {
+    text-align: right ;
+    color:black;
+    margin-top: .3%;
+    
+    
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+}
+
+
+
+/*Footer Styling*/
+.footer {
+    
+    width: 100%;
+}
+.f1 {    
+    padding: 0;
+    margin: 0;
+
+}
+
+.f1,
+.f2,
+.f3 {
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 8%;
+    min-width: 300px;
+    width: 33%;
+
+}
+
+
+#f4 {
+font-size: 14px;
+    
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 50%;               
+    background-color:#d7d1d1;
+    height: 1px;
+}
+
+
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+.goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
+body {top:0 !important;}
+
+
+#rqQuote {
+    text-align: center;
+}
+
+.modal-title {
+    text-align: justify !important;
+}
+
+
+
+
+
+
+
+
+/*AutoInsurance.html Styling*/
+
+#reAutoQt {
+    align-items: center !important;
+}
+
+.spanish {
+    word-wrap: break-word;
+    
+}
+
+/*Auto Req Form*/
+
+.autoReq {
+    text-align: center;
+}
+
+.btAutoForm {
+    float: right;
+}
+
+.siteHeading {
+    text-align: center;
+}
+
+/*Commercial Ins*/
+#commercialIns,
+#petIns {
+    color: black;
+}
+
+
+.insType {
+    font-size: small;
+}
+
+
+/*Contact Us*/
+
+#contactUs {
+    padding-left: 20px;
+}
+
+.card-text {
+    margin-bottom:  0%;
+}
+

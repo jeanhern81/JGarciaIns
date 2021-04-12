@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="css/style-sheet.css">
+
+    <title>JGI - Home</title>
+</head>
+
+<body>
+    <!--Req quote button and phone info-->    
+<div class="alert alert-light" role="alert" >
+
+        <!--Logo row to the right of the site-->
+        <div class="row">
+            <div class="col-sm"><a class="navbar-brand" href="/index.html" >
+                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+        
+        <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
+            <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#requestQT">
+                Contact Us!
+            </button>
+            </div> 
+            <a class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt"> (832) 779-4300</i></a>
+            <div class="spanish">
+                <p class><h5>Se Habla Español</h5></p></div>
+        </div>
+</div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                
+            <li class="nav-item active">
+                <a class="nav-link" href="/index.html">Home</i> <span class="sr-only"></span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Personal Insurance
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/Public/AutoInsurance.html">Auto Insurance</a>
+                <a class="dropdown-item" href="/Public/HomeInsurance.html">Home Insurance</a>
+                <a class="dropdown-item" href="/Public/LifeInsurance.html">Life Insurance</a>
+                </di>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="CommercialInsurance.html">Commercial Insurance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PetInsurance.html">Pet Insurance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="CompaniesWeRepresent.html">Companies We Represent</a>
+            </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+<br>
+<!--Body-->
+
+    <!--Auto Quote Request-->
+<div class="container-md">
+
+<h2 class='autoReq'>Home Request</h2>
+<br>
+    
+<form>
+    <p>Primary Insured</p>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" id="lastName">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="phoneNumber" class="form-control" id="phoneNumber">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="dob">Date of Birth</label>
+        <input type="dob" class="form-control" id="dob">
+    </div>
+        <div class="form-group col-md-3">
+        <label for="socialSecurity">Social Security Number</label>
+        <input type="text" class="form-control" id="socialSecurity">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="dlNumber">Drivers License Number</label>
+        <input type="dlNumber" class="form-control" id="dlNumber">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="stateIssued">State Issued</label>
+        <input type="stateIssued" class="form-control" id="stateIssued">
+    </div>
+
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Property Location Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>TX</option>
+        </select>
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+    </div>
+    </div>                
+
+    <br>
+    <hr>
+    <p>Current Coverage</p>
+    <div class="form-group">
+        <div class="form-check">
+                <label for="insured">Are you insured?</label>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">No</label>
+    </div>
+
+    </div>
+    </div>
+
+    
+    <div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="carrierName">Carrier Name</label>
+    <input type="carrierName" class="form-control" id="carrierName">
+</div>
+<div class="form-group col-md-3">
+    <label for="policyNumber">Policy Number</label>
+    <input type="policyNumber" class="form-control" id="policyNumber">
+</div>
+<div class="form-group col-md-3">
+    <label for="expiration">Expiration Date</label>
+    <input type="expiration" class="form-control" id="expiration">
+</div>
+</div>
+<br>
+<hr>
+<br>
+<p>Insurance Information</p>
+<div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="dedDesired">Deductible Desired</label>
+    <input type="text" class="form-control" id="dedDesired">
+</div>
+<div class="form-group col-md-6">
+    <label for="liabDesired">Amount of Liablity Desired</label>
+    <input type="text" class="form-control" id="liabDesired">
+</div>
+
+<br><br>
+<div class="form-group">
+    <div class="form-check">
+            <label for="insured">Is this home owner occupied or rental?</label>
+<div class="form-check form-check-inline">
+    
+<p>
+<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+<label class="form-check-label" for="inlineCheckbox2">Owner Occupied</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+<label class="form-check-label" for="inlineCheckbox2">Rental</label>
+</div>
+</p>
+</div>
+</div>
+
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="replacementCost">Estimated Replacement Cost</label>
+    <input type="text" class="form-control" id="replacementCost">
+</div>
+<div class="form-group col-md-2">
+    <label for="sqFootage">Square Footage</label>
+    <input type="text" class="form-control" id="sqFootage">
+</div>
+<div class="form-group col-md-2">
+    <label for="yrConstruction">Years Constructed</label>
+    <input type="text" class="form-control" id="yrConstruction">
+</div>
+<div class="form-group col-md-2">
+    <label for="roof">Age of Roof</label>
+    <input type="text" class="form-control" id="roof">
+</div>
+<div class="form-group col-md-2">
+    <label for="collisionDed">Age of Water Heater</label>
+    <input type="text" class="form-control" id="collisionDed">
+</div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-12">
+    <label for="uupdates">Is your home older than 20 years? If so, what updates have been done?</label>
+    <input type="text" class="form-control" id="updates">
+</div>
+
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-4">
+    <p class="floors">How many floors?</p>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1Story" check="checked"> 1 Story</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1.5Story" check="checked"> 1.5 Story</label>
+<br>
+    <label class="radio-inline">
+    <input class="quoteradio" type="radio" value="2Story" check="checked"> 2 Story</label>
+<br>
+    <label class="radio-inline">
+        <input class="quoteradio" type="radio" value="split" check="checked"> Split Level</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
+    <input type="other" class="form-control" id="other" aria-describedby="other">
+</div>
+
+
+<br>
+<div class="col-sm-4">
+    <p class="floors">Construction Type</p>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1Story" check="checked"> Wood</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1.5Story" check="checked"> Stucco</label>
+<br>
+    <label class="radio-inline">
+    <input class="quoteradio" type="radio" value="2Story" check="checked"> Masonry</label>
+<br>
+    <label class="radio-inline">
+        <input class="quoteradio" type="radio" value="split" check="checked"> Brick Veneer</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
+    <input type="other" class="form-control" id="other" aria-describedby="other">
+</div>
+
+
+
+<div class="col-sm-4">
+    <p class="floors">Other Features (check all that apply)</p>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="deadbolts" check="checked"> Deadbolts</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="smokeDetector" check="checked"> Smoke Detectors</label>
+<br>
+    <label class="radio-inline">
+    <input class="quoteradio" type="radio" value="fireExtingquisher" check="checked"> Fire Extinguisher</label>
+<br>
+    <label class="radio-inline">
+        <input class="quoteradio" type="radio" value="fireAlarm" check="checked"> Central Station Fire Alarm</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="burglarAlarm" check="checked"> Central Station Burglar Alarm</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="pool" check="checked"> Swimming Pool</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="trampoline" check="checked"> Trampoline</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
+    <input type="other" class="form-control" id="other" aria-describedby="other">
+</div>
+</div>
+<br>
+<hr>
+
+<br>
+<p>Claims?</p>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="claimDate">Date of Claim</label>
+    <input type="text" class="form-control" id="claimDate">
+</div>
+<div class="form-group col-md-4">
+    <label for="amountPaid">Amount Paid</label>
+    <input type="text" class="form-control" id="amountPaid">
+</div>
+<div class="form-group col-md-4">
+    <label for="claimType">Claim Type</label>
+    <input type="text" class="form-control" id="claimType">
+</div>
+<div class="form-group col-md-12">
+    <label for="claimDes">Description</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    
+</div>
+</div>
+
+<hr>
+
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="claimDate">Date of Claim</label>
+    <input type="text" class="form-control" id="claimDate">
+</div>
+<div class="form-group col-md-4">
+    <label for="amountPaid">Amount Paid</label>
+    <input type="text" class="form-control" id="amountPaid">
+</div>
+<div class="form-group col-md-4">
+    <label for="claimType">Claim Type</label>
+    <input type="text" class="form-control" id="claimType" rows="3">
+</div>
+<div class="form-group col-md-12">
+    <label for="claimDes">Description</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    
+</div>
+</div>
+
+<hr>
+
+
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Additional Information </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    </div>
+
+    <br>
+
+    <hr>
+    <br>
+<div class='btAutoForm'>
+        <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-danger" type="button"><a href="HomeInsurance.html">Back</a></button>
+        <button class="btn btn-info" type="button">Submit</button>
+    </div>
+</div>
+                    <br>
+        </div>
+</form>
+<br><br><br>
+<div class='container-fluid'>
+    <div class="text-center">
+        <p>Please Note that coverage cannot be bound via quote request form.</p>
+    </div>
+    
+</div>
+<br>
+
+
+<br>
+
+
+
+<!--Quote Request Form on top right corner-->
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg " id="requestQT"  tabindex="-1" role="dialog" aria-labelledby="requestQT" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        
+        <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+            <form>
+                <div class="involveme_embed" data-embed="thewebdevstudio/looking-sharp-contact-form-embed-7549"></div>
+                <script src="https://app.involve.me/embed"></script>
+
+                </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            
+        </div>
+        </div>
+    </div>
+</div>
+<!--Quote Request Form on top right corner-->
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer>
+    <nav class="navbar bottom navbar-light bg-light size-small d-flex justify-content-center" >
+        <div class="f1">
+            <br>
+            <h6>Quick Links</h6>
+            <li><a href="/Public/Auto_QT_Req.html">Auto Quote Request</a></li>
+            <li><a href="/Public/Home_QT_Req.html">Home Quote Request</a></li>
+            <li><a href="/Public/Commercial_QT_Req.html">Commercial Insurance Request</a></li>
+        </div>
+        <div class="f2">
+            <br>
+            <p><a href="ContactUs.html">Contact Us</a></p>
+            <p><a href="PrivacyPolicy.html">Privacy Policy</a></p>
+        </div>
+        <br>
+    <div class="f3">
+        <p>Translate this page:</p>
+<!-- GTranslate: https://gtranslate.io/ -->
+    <div id="google_translate_element"></div>
+
+    </div>
+
+    <hr>
+    <div class="text-center">
+        <p class=""></p><i class="far fa-copyright " id="f4"> Julio Garcia Insurance  </i> </p>
+        <p class="" id="f4"> All content on this website is owned by Julio Garcia and our licensors. Do not use without our consent.</p>
+        <p class="" id="f4">Website created by <a href='www.thewebdevstudio.com'>The Web Dev Studio</a>. All rights reserved.</p>
+    </div>
+        <br>
+    </nav>
+</footer>
+
+
+
+<!--my javascript code-->
+<link rel="javascript" href="Public/js/script.js" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Bootstrap CDN jQuery-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<script type="text/javascript">
+        function googleTranslateElementInit() 
+        {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
+    </script>
+
+</body>
+</html>
